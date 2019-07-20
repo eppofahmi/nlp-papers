@@ -1,7 +1,7 @@
 library(pdftools)
 library(purrr)
 
-setwd("/Users/ujangfahmi/Desktop/UJANG FAHMI/KedataML/rScrap/papers")
+setwd("/papers")
 
 file_list <- list.files(".", full.names = TRUE, pattern = '.pdf$')
 
